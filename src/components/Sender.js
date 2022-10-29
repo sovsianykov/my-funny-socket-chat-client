@@ -80,8 +80,7 @@ const Sender = () => {
         style={{
           position: "fixed",
           bottom: 80,
-          margin:"0 auto" ,
-          width: 340,
+          margin: "0 auto",
           background: "antiquewhite",
           padding: 5,
         }}

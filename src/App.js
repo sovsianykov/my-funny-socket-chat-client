@@ -4,7 +4,7 @@ import { Box, CssBaseline } from "@mui/material";
 import io from "socket.io-client";
 import RoomSetter from "./components/RoomSetter";
 
-export const socket = io.connect("http://localhost:8080");
+export const socket = io.connect('https://my-funny-socket-chat.herokuapp.com');
 
 function App() {
   return (
@@ -16,7 +16,6 @@ function App() {
       display="flex"
       flexDirection="column"
       justifyContent="space-between"
-
     >
       <CssBaseline />
       <RoomSetter />
