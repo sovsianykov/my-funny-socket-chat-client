@@ -55,7 +55,7 @@ const Sender = () => {
     socket.on("receive_message", (data) => {
       setResponses((r) => r.concat([{ sent: false, message: data.text }]));
     });
-  }, [socket]);
+  }, []);
   return (
     <FormGroup onSubmit={sendMessage}>
       <AnswerWrapper>
