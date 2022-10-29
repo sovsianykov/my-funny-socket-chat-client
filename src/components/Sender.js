@@ -50,7 +50,6 @@ const Sender = () => {
       alert("Input some message!");
     }
   };
-  console.log(responses);
 
   useEffect(() => {
     socket.on("receive_message", (data) => {

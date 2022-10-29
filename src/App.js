@@ -2,7 +2,7 @@ import React from "react";
 import Sender from "./components/Sender";
 import { Box, CssBaseline } from "@mui/material";
 import io from "socket.io-client";
-import RoomSet from "./components/RoomSet";
+import RoomSetter from "./components/RoomSetter";
 
 export const socket = io.connect("http://localhost:8080");
 
@@ -19,7 +19,7 @@ function App() {
 
     >
       <CssBaseline />
-      <RoomSet />
+      <RoomSetter />
       <Sender />
     </Box>
   );
