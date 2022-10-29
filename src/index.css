@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("https://cf.bstatic.com/xdata/images/hotel/max1280x900/339756816.jpg?k=7705e7dd70c854a3180d118793906b17a9d43fc25a3f9de0bff39e834b3616cf&o=&hp=1")
+  no-repeat center center;
 }
 
 code {
