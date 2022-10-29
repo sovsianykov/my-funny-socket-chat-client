@@ -14,7 +14,7 @@ const AnswerWrapper = styled(Box)`
   letter-spacing: 0.06rem;
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  height: 40vh;
   overflow-y: scroll;
   margin-bottom: 20px;
 
